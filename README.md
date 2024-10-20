@@ -5,9 +5,9 @@ Design patterns in Golang can help you write cleaner, more maintainable, and sca
 
 ## Table of Contents
 
-1. [Singleton](#1-Singletonsingleton)
+1. [Singleton](#singleton)
 2. [Factory Method](#factory-method)
-3. [Abstract Factory Pattern](#Abstract-Factory-Pattern)
+3. [Abstract Factory Pattern](#abstract-factory-pattern)
 4. [Builder Pattern](#Builder-Pattern)
 5. [Prototype Pattern](#Prototype-Pattern)
 6. [Observer](#observer)
@@ -19,7 +19,7 @@ Design patterns in Golang can help you write cleaner, more maintainable, and sca
 
 ---
 
-## 1. Singleton
+## Singleton
 
 The Singleton pattern Ensure that a class has only one instance and provides a global access point to it.
 
@@ -66,7 +66,7 @@ func main() {
 
 ---
 
-## 2. Factory Method
+## Factory Method
 
 The Factory Method pattern Define an interface for creating an object, but let subclasses alter the type of objects that will be created.
 
@@ -116,7 +116,7 @@ func main() {
 }
 ```
 ---
-## 3. Abstract Factory Pattern
+## Abstract Factory Pattern
 
 Abstract Factory provides an interface for creating families of related or dependent objects without specifying their concrete classes. In Go, it can be implemented by defining different factory interfaces.
 
